@@ -1,0 +1,53 @@
+.pop-ups {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all is ease;
+}
+
+
+.pop-ups__popup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden auto;
+  padding: 20px, 0;
+  display: flex;
+}
+
+.pop-ups__modal {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  min-height: 200px;
+  padding: 30px;
+  background-color: red;
+  margin: auto;
+  transition: all .4s ease;
+  transform:translateY(0) scale(1);
+}
+
+.button-modal {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.pop-ups.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.is-hidden.pop-ups__modal {
+  transform:translateY(-200%) scale(0.4);
+}
