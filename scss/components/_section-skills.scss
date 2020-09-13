@@ -1,0 +1,58 @@
+.skills {
+  padding-bottom: 94px;
+  background-color: blacl;
+}
+
+.business-li {
+  display: flex;
+  padding-left: 0;
+  padding-top: 94px;
+}
+
+.business-li-item {
+  margin-right: 30px;
+  width: 270px;
+  height: 101;
+}
+
+.skills-container {
+  background:var(--backcolor-our-team);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.skills-item-1 {
+  background-image: url(../../images/2-skills/antenna.png);
+ }
+
+.skills-item-2 {
+  background-image: url(../../images/2-skills/clock.png);
+ }
+
+.skills-item-3 {
+  background-image: url(../../images/2-skills/diagram.png);
+ }
+
+.skills-item-4 {
+  background-image: url(../../images/2-skills/astronaut.png);
+ }
+
+.business-header {
+  color: var(--text-color);
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.business-comment {
+  color: var(--esle-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}

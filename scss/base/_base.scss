@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  width: 100%;
+  color: var(--text-color);
+  font-family: var(--font-family-roboto);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  text-decoration: none;
+  }
+
+.none {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
