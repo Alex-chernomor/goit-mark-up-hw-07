@@ -70,6 +70,7 @@
   fill: var(--white-color);
    width: 20px;
    height: 20px;
+   margin-right: 10px;;
  }
  
 .flex {
@@ -86,6 +87,10 @@
   background-color: var(--accent-color);
   }
 
+}
+
+.social-item {
+  margin-right: 10px;
 }
 
 .connect-item {
