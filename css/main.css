@@ -873,9 +873,6 @@ button {
 }
 
 .social-svg-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   --color1: var(--white-color);
   width: 20px;
   height: 20px;
@@ -894,6 +891,12 @@ button {
 
 .footer-item .social-item-svg:hover, .footer-item .social-item-svg:focus {
   background-color: var(--accent-color);
+}
+
+.social-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .connect-item {
