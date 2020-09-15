@@ -873,7 +873,10 @@ button {
 }
 
 .social-svg-footer {
-  fill: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --color1: var(--white-color);
   width: 20px;
   height: 20px;
   margin-right: 10px;
