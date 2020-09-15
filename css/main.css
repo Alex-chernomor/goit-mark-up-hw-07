@@ -437,15 +437,15 @@ button {
 }
 
 .skills-item-2 {
-  background-image: url(../../images/2-skills/clock.png);
+  background-image: url(../images/2-skills/clock.png);
 }
 
 .skills-item-3 {
-  background-image: url(../../images/2-skills/diagram.png);
+  background-image: url(../images/2-skills/diagram.png);
 }
 
 .skills-item-4 {
-  background-image: url(../../images/2-skills/astronaut.png);
+  background-image: url(../images/2-skills/astronaut.png);
 }
 
 .business-header {
@@ -530,6 +530,10 @@ button {
 .our-team-ul {
   display: flex;
   padding: 0;
+}
+
+.social-item-ul li:not(:last-child) {
+  margin-right: 10px;
 }
 
 .our-team {
@@ -714,10 +718,11 @@ button {
   margin-right: 93px;
 }
 
-.social-svg-footer-sign {
+.social-svg-footer {
   fill: var(--white-color);
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
 
 .flex {
@@ -732,6 +737,10 @@ button {
 
 .footer-item .social-item-svg:hover, .footer-item .social-item-svg:focus {
   background-color: var(--accent-color);
+}
+
+.social-item {
+  margin-right: 10px;
 }
 
 .connect-item {

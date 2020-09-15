@@ -19,6 +19,12 @@
   padding: 0;
 }
 
+.social-item-ul{
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
 .our-team {
   margin-right: 30px;
   list-style: none;
